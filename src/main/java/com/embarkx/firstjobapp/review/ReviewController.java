@@ -50,7 +50,7 @@ public class ReviewController {
             return new ResponseEntity<>("Review updated successfully", HttpStatus.OK);
         }else{
 
-        return new ResponseEntity<>("Review not updated", HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>("Review not updated Successfully", HttpStatus.NOT_FOUND);
         }
 
     }
